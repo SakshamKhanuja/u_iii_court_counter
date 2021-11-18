@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+
+    <!--Team Label-->
+    <color name="colorTeamLabel">#616161</color>
+
+    <!--Team Scores-->
+    <color name="colorTeamScore">#000000</color>
+
+    <!--Background Color-->
+    <color name="colorBackground">#EEEEEE</color>
+
+    <!--Divider Color-->
+    <color name="colorDivider">@android:color/darker_gray</color>
+</resources>

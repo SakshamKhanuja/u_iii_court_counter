@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base Application Theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--Colors all Buttons-->
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="backgroundColor">@color/colorBackground</item>
+    </style>
+
+    <!--Basic View layout parameters-->
+    <style name="BasicView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Team Button Style-->
+    <style name="TeamButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+
+    <!--Team Label Style-->
+    <style name="TeamLabelStyle" parent="BasicView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/colorTeamLabel</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!--Team Score Style-->
+    <style name="TeamScoreLabel" parent="BasicView">
+        <item name="android:textSize">56sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:textColor">@color/colorTeamScore</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!--Team Container Style-->
+    <style name="TeamLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>

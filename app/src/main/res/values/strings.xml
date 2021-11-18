@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CourtCounter</string>
+
+    <!--Team Labels-->
+    <string name="labelTeamA">Team A</string>
+    <string name="labelTeamB">Team B</string>
+
+    <!--Button Text-->
+    <string name="threePoints">+3 Points</string>
+    <string name="twoPoints">+2 Points</string>
+    <string name="freeThrow">Free Throw</string>
+    <string name="reset">Reset</string>
+
+    <!--Default Score-->
+    <string name="defaultScore">0</string>
+</resources>
